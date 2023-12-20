@@ -1,4 +1,7 @@
 # Stocks analysis with Spark and Docker (proof of concept)
+
+**This project is WIP at the moment**
+
 PoC app for analysis of stocks prices. Prgrammed in Python, uses *pypark* libraries.
 
 This project sets up a standalone Spark cluster
