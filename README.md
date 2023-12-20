@@ -2,7 +2,7 @@
 PoC app for analysis of stocks prices. Prgrammed in Python, uses *pypark* libraries.
 
 This project sets up a standalone Spark cluster
-running one Spark Master and two Spark workers via Docker images.
+running one Spark Master, two Spark workers and a history server, via Docker images.
 
 The app is also run from a Docker image.
 
@@ -25,7 +25,7 @@ Create images and run the containers that compose the Spark cluster.
 ```bash
 git clone https://github.com/marandra/de-docker-spark
 cd de-docker-spark
-docker-compose up -d
+make build
 ```
 ### Run the App image
 
